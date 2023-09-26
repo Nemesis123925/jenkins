@@ -32,6 +32,8 @@ import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.converters.ConversionException;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+import java.lang.annotation.ElementType;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -72,7 +74,7 @@ public class RobustReflectionConverterTest {
         XStream xs = new XStream2(clazz -> {
             Owner o = clazz.getAnnotation(Owner.class);
             return o != null ? o.value() : null;
-        });
+        }, true);
         String prefix1 = RobustReflectionConverterTest.class.getName() + "_-";
         String prefix2 = RobustReflectionConverterTest.class.getName() + "$";
         Enchufla s1 = new Enchufla();
@@ -119,6 +121,12 @@ public class RobustReflectionConverterTest {
         List<String> items;
     }
 
+    @Retention(RetentionPolicy.RUNTIME)
+    @Target(ElementType.TYPE)
+    public @interface XMLSequence {
+        String[] value();
+    }
+
     @Retention(RetentionPolicy.RUNTIME) @interface Owner {String value();}
     public static class Projekt {
         Bild[] bildz;
@@ -134,6 +142,11 @@ public class RobustReflectionConverterTest {
         String direction;
     }
     @Owner("p2")
+    @XMLSequence({
+            "Boot",
+            "Jacket",
+            "Lover"
+    })
     public static class Moonwalk extends Steppe {
         Boot boot;
         Jacket jacket;
