@@ -1,0 +1,188 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36morg.jenkins-ci.main:jenkins-test[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Tests for Jenkins core 2.323-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/main/jenkins-core/2.323-SNAPSHOT/maven-metadata.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:display-info[m [1m(display-info)[m @ [36mjenkins-test[0;1m ---[m
+[[1;34mINFO[m] Maven Version: 3.6.3
+[[1;34mINFO[m] JDK Version: 11.0.20.1 normalized as: 11.0.20-1
+[[1;34mINFO[m] OS Info: Arch: amd64 Family: unix Name: linux Version: 5.4.0-163-generic
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(display-info)[m @ [36mjenkins-test[0;1m ---[m
+[[1;34mINFO[m] Adding ignore: module-info
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-banned-dependencies)[m @ [36mjenkins-test[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:3.1.2:check[m [1m(validate)[m @ [36mjenkins-test[0;1m ---[m
+[[1;34mINFO[m] Starting audit...
+Audit done.
+[[1;34mINFO[m] You have 0 Checkstyle violations.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.7.0:process[m [1m(default)[m @ [36mjenkins-test[0;1m ---[m
+[[1;34mINFO[m] Preparing remote bundle org.jvnet.hudson:license:1.0
+[[1;34mINFO[m] Copying 0 resource from 1 bundle.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mjenkins-test[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/yuxuang6/project/jenkins/test/src/main/resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/yuxuang6/project/jenkins/test/src/filter/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.2.7:flatten[m [1m(flatten)[m @ [36mjenkins-test[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project org.jenkins-ci.main:jenkins-test:jar:2.323-SNAPSHOT...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mjenkins-test[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.2.0:copy[m [1m(old-remoting-for-test)[m @ [36mjenkins-test[0;1m ---[m
+[[1;34mINFO[m] Configured Artifact: org.jenkins-ci.main:remoting:3.14:jar
+[[1;34mINFO[m] org.jenkins-ci.main:remoting:3.14:jar already exists in /home/yuxuang6/project/jenkins/test/target/classes/old-remoting
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mjenkins-test[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 362 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mjenkins-test[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 408 source files to /home/yuxuang6/project/jenkins/test/target/test-classes
+[[1;33mWARNING[m] Unable to autodetect 'javac' path, using 'javac' from the environment.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32manimal-sniffer-maven-plugin:1.20:check[m [1m(check)[m @ [36mjenkins-test[0;1m ---[m
+[[1;34mINFO[m] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32manimal-sniffer-maven-plugin:1.20:check[m [1m(default)[m @ [36mjenkins-test[0;1m ---[m
+[[1;34mINFO[m] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mjenkins-test[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running lib.layout.[1mIconTest[m
+=== Starting testTasks(lib.layout.IconTest)
+   0.145 [id=15]	INFO	o.jvnet.hudson.test.WarExploder#explode: Using jenkins.war resources from /home/yuxuang6/project/jenkins/war/target/jenkins
+   0.626 [id=15]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:36701/jenkins/
+   1.450 [id=29]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   1.561 [id=29]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   4.661 [id=30]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   4.670 [id=29]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   4.679 [id=30]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   4.682 [id=28]	WARNING	hudson.util.PluginServletFilter#addFilter: Filter instance is registered too early: jenkins.telemetry.impl.UserLanguages$AcceptLanguageFilter@2a
+java.lang.Exception
+	at hudson.util.PluginServletFilter.addFilter(PluginServletFilter.java:108)
+	at jenkins.telemetry.impl.UserLanguages.setUpFilter(UserLanguages.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at hudson.init.TaskMethodFinder.invoke(TaskMethodFinder.java:104)
+	at hudson.init.TaskMethodFinder$TaskImpl.run(TaskMethodFinder.java:180)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:305)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1152)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:222)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:121)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+   4.700 [id=28]	WARNING	hudson.util.PluginServletFilter#addFilter: Filter instance is registered too early: jenkins.security.ResourceDomainFilter@5786d16d
+java.lang.Exception
+	at hudson.util.PluginServletFilter.addFilter(PluginServletFilter.java:108)
+	at jenkins.security.ResourceDomainFilter.init(ResourceDomainFilter.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at hudson.init.TaskMethodFinder.invoke(TaskMethodFinder.java:104)
+	at hudson.init.TaskMethodFinder$TaskImpl.run(TaskMethodFinder.java:180)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:305)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1152)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:222)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:121)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+   6.234 [id=28]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   6.235 [id=28]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   6.235 [id=28]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   6.236 [id=28]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   6.532 [id=27]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   7.747 [id=15]	INFO	c.g.htmlunit.WebClient#printContentIfNecessary: statusCode=[404] contentType=[text/html]
+   7.751 [id=15]	INFO	c.g.htmlunit.WebClient#printContentIfNecessary: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h2>HTTP ERROR 404 Not Found</h2>
+<table>
+<tr><th>URI:</th><td>/jenkins/testTasks</td></tr>
+<tr><th>STATUS:</th><td>404</td></tr>
+<tr><th>MESSAGE:</th><td>Not Found</td></tr>
+<tr><th>SERVLET:</th><td>default</td></tr>
+</table>
+<hr/><a href="https://eclipse.org/jetty">Powered by Jetty:// 9.4.44.v20210927</a><hr/>
+
+</body>
+</html>
+
+   8.093 [id=15]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+   8.500 [id=15]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m1[m, Failures: 0, [1;31mErrors: [0;1;31m1[m, Skipped: 0, Time elapsed: 10.454 s[1;31m <<< FAILURE![m - in lib.layout.[1mIconTest[m
+[[1;31mERROR[m] testTasks(lib.layout.IconTest)  Time elapsed: 10.285 s  <<< ERROR!
+com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException: 404 Not Found for http://localhost:36701/jenkins/testTasks
+	at com.gargoylesoftware.htmlunit.WebClient.throwFailingHttpStatusCodeExceptionIfNecessary(WebClient.java:757)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:509)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:411)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:546)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:527)
+	at org.jvnet.hudson.test.JenkinsRule$WebClient.goTo(JenkinsRule.java:2612)
+	at org.jvnet.hudson.test.JenkinsRule$WebClient.goTo(JenkinsRule.java:2592)
+	at lib.layout.IconTest.testTasks(IconTest.java:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.jvnet.hudson.test.JenkinsRule$1.evaluate(JenkinsRule.java:601)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mErrors: [m
+[[1;31mERROR[m] [1;31m  IconTest.testTasks:137 » FailingHttpStatusCode 404 Not Found for http://localh...[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 1, Failures: 0, Errors: 1, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  38.456 s
+[[1;34mINFO[m] Finished at: 2023-09-28T10:55:25-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.22.2:test[m [1m(default-test)[m on project [36mjenkins-test[m: [1;31mThere are test failures.[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] [1;31mPlease refer to /home/yuxuang6/project/jenkins/test/target/surefire-reports for the individual test results.[m
+[[1;31mERROR[m] [1;31mPlease refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
